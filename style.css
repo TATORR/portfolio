@@ -46,8 +46,7 @@ header h1 {
 
 .primary-border{display: inline;}
 
-.about-me {
-    background-image: url(../porfolio/photos/0C0444969EB0F52F887C3657379F70326747D27D651A8B3FE405DCFE30382FD1_sk_13_cid_1.jpeg;
+.about-me { background-image: url(../porfolio/photos/0C0444969EB0F52F887C3657379F70326747D27D651A8B3FE405DCFE30382FD1_sk_13_cid_1.jpeg);
     height: 800px;
     background-size: cover;
     background-position: center;
@@ -55,7 +54,6 @@ header h1 {
     padding:10px;
     margin:10px;
     display: inline-flex;
-
 
 }
 .contact-form{
