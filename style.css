@@ -8,8 +8,8 @@ body {background-color: lightskyblue;}
 header {
     width: 100%;
     overflow: auto;
-    padding:50px;
-    margin:50px;
+    padding-bottom:  30px;
+    margin-right:50px;
     display: inline-block;
     border-top:40px;
     font-family:Arial, Helvetica, sans-serif;
@@ -33,7 +33,7 @@ header nav ul li
 header nav ul li a{
     margin:0 30;
     font-weight: lighter;
-    font-size:22px;
+    font-size:35px;
     color:black;
     display:inline;
 
@@ -44,11 +44,13 @@ header h1 {
     color: black;
     margin:0;}
 
-.primary-border{display: inline;}
+h2.primary-border {display:inline-flex;}
+
+img.me{display:inline-flex}
 
 .about-me { 
     height: 800px;
-    background-image:url(../porfolio/photos/4.JPG);
+    background-image: url(..//porfolio/photos/4.JPG);
     background-size: cover;
     background-position: center;
     align-content: center;
@@ -57,6 +59,12 @@ header h1 {
     display: inline-flex;
 
 }
+form.contactbox label.contact-name{
+    display: list-item;
+}
+form label.contact-message{
+    display: list-item;
+}
 .contact-form{
     background-color: peachpuff;
     width: 551px;
@@ -64,6 +72,7 @@ header h1 {
     padding: 50px;
     margin: 20px;
 }
+
 
     
     #Tye-dye{

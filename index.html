@@ -28,10 +28,12 @@
     </header>
     <!-- HEADER & NAV END-->
     <section id='about-me' class='about-me'>
-        <div class="flex-row"> <h2 class="primary-border">
+        <div class="flex-row"> 
+            <div class="w3-container"><h2 class="primary-border">
             About me 
         </h2>
-        <img src="./photos/IMG_9880.JPG" alt="Photo of tyler torres" width="300px" height="400px">
+        </div>
+        <img class="me" src="./photos/IMG_9880.JPG" alt="Photo of tyler torres" width="300px" height="400px">
     <p class="ab">Hello world, my name is Tyler Torres. I'm 21 years old and I come from Jersey City, New Jersey.
         I currently live in Kissimmee, Florida, where I'm currently taking a coding boot camp at UCF 
         looking to expand my knowledge in web design & coding and mixing it with my other skills!</p>
@@ -42,22 +44,20 @@
         <h3>Contact Information</h3>
         <p>Want to contact me & learn more about what I do? <br/> Let me Know and i'll be happy to talk!</p>
         <address> 
-            2713 Giralda ct <br/>
-            Kissimme, Fl <br/>
-            34743 <br/>
             P: 407-530-7662 <br/>
             E: <a href="mailto:ty3torr3s@icloud.com">ty3torr3s@icloud.com</a>
         </address>
         <div class="contact-form">
             <h3>Contact us!</h3>
-            <form>
-                <label for ="contact-name">Your name</label>
+            <form class="contactbox">
+                <label class="contact-name" for ="contact-name">Your name</label>
                 <input type="text" id="contact-name" placeholder="Your name"/>
-    
-                <label for="contact-message">Message</label>
+        <form>
+                <label class="contact-message" for="contact-message">Message</label>
                 <textarea style="resize: none" class="contact-message" placeholder="Message"></textarea>
                 
                 <button type="submit">Submit</button>
+                </form>
             </form>
 </div>
         
